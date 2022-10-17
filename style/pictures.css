@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.background {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  border: none;
+  background: white;
+  padding: 13px 30px;
+  border-radius: 30px;
+  color: black;
+}
+
+button:hover {
+  background: red;
+  color: white;
+  transition: 0.5s;
+}
+
+.pictures {
+  height: 99999999999999999999999px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+div.pictures div {
+  height: 501px;
+  width: 1169px;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+div.pictures img {
+  height: 100%;
+  width: 100%;
+}
+
+div.pictures img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.goback {
+  position: fixed;
+  bottom: 40px;
+  right: 10%;
+  background: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+}
+
+.goback:hover {
+  background: red;
+  color: white;
+  transition: 0.5s;
+}
+
+.footer {
+  height: 40px;
+}
