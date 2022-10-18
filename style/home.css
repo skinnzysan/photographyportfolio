@@ -11,7 +11,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.01)
     ),
-    url(../background.png);
+    url(../pictures/backgrounds/1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -47,21 +47,5 @@ nav ul li a {
 
 nav ul li a:hover {
   color: red;
-  transition: 0.5s;
-}
-
-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  border: none;
-  background: white;
-  padding: 13px 30px;
-  border-radius: 30px;
-  color: black;
-}
-
-button:hover {
-  background: red;
-  color: white;
   transition: 0.5s;
 }
