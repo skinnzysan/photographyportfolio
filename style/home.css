@@ -30,6 +30,7 @@ ul {
   display: inline-flex;
   list-style: none;
   margin-right: 80px;
+  z-index: 1;
 }
 
 a {
@@ -39,8 +40,8 @@ a {
   color: white;
 }
 
-.textbutton:hover { 
-  transition: .5s;
+.textbutton:hover {
+  transition: 0.5s;
   color: red;
 }
 
@@ -88,7 +89,6 @@ a {
   visibility: visible;
   top: 100%;
   width: 100%;
-  -webkit-transition: all .5s, background, 2s .5s linear;
-  transition: all .5s, background 2s .5s linear;
-
+  -webkit-transition: all 0.5s, background, 2s 0.5s linear;
+  transition: all 0.5s, background 2s 0.5s linear;
 }
